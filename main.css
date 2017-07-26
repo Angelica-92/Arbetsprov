@@ -1,0 +1,313 @@
+ {
+	box-sizing: border-box;
+}
+header {
+    height: 100px;
+    border-bottom: solid 1px black;
+    width: 100%;
+}
+#wrapper {
+    width: 100%;
+}
+section  {
+    width: 100%;
+}
+/* Slideshow container */
+
+{box-sizing:border-box}
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  padding-right: 0px;
+}
+
+.mySlides {
+    display: none;
+    margin: 50px 0px 0px 70px;
+}
+
+.headImg {
+    width: 35%;
+}
+.campaignImg {
+    width: 80%;
+}
+
+/* Caption text */
+.text {
+  color: #595959;
+  font-family:sans-serif;
+  padding: 70px 12px;
+  position: absolute;
+  margin-left: 20px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/2 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.button {
+    width: 100px;
+    border-radius: 10px;
+    height: 50px;
+    border: 1px solid #ffcc00;
+    background-color: #ffcc00;
+    margin: 30px 0px 0px 480px;
+}
+
+.buttonClass {
+    color: white;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+.line {
+    border-top: solid 1px #e6e6e6;
+    margin: 50px 0px 0px 230px;
+    width: 900px;
+}
+/* Other campaigns */
+
+.headTitle {
+    text-align: center;
+    color: #595959;
+    font-family:sans-serif;
+}
+.other {
+    float: left;
+    margin: 50px 200px 200px 320px;
+}
+
+.campaign {
+    float: left;
+    padding-right: 30px;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.smallLine {
+    margin: 10px 0px 0px 0px;
+    border-top: solid 1px #e6e6e6;
+    width: 130px;    
+}
+
+.title {
+    color: #595959;
+    font-family:sans-serif;
+}
+.read {
+    font-style: italic;
+    color: #595959;
+    font-family:sans-serif;
+    font-size: 14px;
+}
+.boxStyle {
+    width: 200px;
+    height: auto;
+    padding-left: 2px;   
+}
+
+#readMore {
+    display: none;
+    margin-bottom: 100px;
+}
+#readMore2 {
+    display: none;
+    margin-bottom: 100px;
+}
+#readMore3 {
+    display: none;
+    margin-bottom: 100px;
+}
+#readMore4 {
+    display: none;
+    margin-bottom: 100px;
+}
+
+.green {
+    color: #009900;
+    font-family:sans-serif;
+}
+
+.red {
+    color: #ff6666; 
+    font-family:sans-serif;
+}
+
+.blue {
+    color: #006bb3;
+    font-family:sans-serif;
+}
+
+.purple {
+    color: #730099;
+    font-family:sans-serif;
+}
+
+.grey {
+    color: #595959;
+    font-family:sans-serif;
+    font-size: 14px;
+}
+
+.smallButton {
+    width: 60px;
+    border-radius: 10px;
+    height: 30px;
+    border: 1px solid #ffcc00;
+    background-color: #ffcc00;
+    margin: 30px 0px 0px 120px;
+    padding: 0px 0px 15px 15px;
+}
+.buttonText {
+    color: white;
+    font-size: 15px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+}
+/* Tablet */
+@media screen and (min-width: 480px) and (max-width: 1024px){
+    .header {
+        width: 1200px;
+    }
+    .slideshow-container {
+        max-width: 500px;
+        position: relative;
+        margin-left: 10px; 
+}
+    .mySlides {
+        display: none;
+        margin: 50px 0px 0px 10px;
+}
+
+    .headImg {
+        width: 100%;
+    }
+
+/* Caption text */
+    .text {
+        margin: 0px 10px 0px 400px;
+}
+    .button {
+        margin: 30px 0px 0px 200px;
+}
+    .line {
+        margin: 50px 0px 0px 70px;
+        width: 700px;
+}
+    .smallLine {
+        width: 350px;
+    }
+    .smallButton {
+        margin: 30px 0px 0px 90px;
+        padding: 0px 10px 15px 15px;
+}
+    .buttonText {
+        font-size: 20px;
+        margin: 10px 10px 0px 0px;
+    }
+    .other {
+        float: none;
+        width:900px;
+        margin: 0px 0px 20px 200px;
+    }
+    .campaign {
+        float:none; 
+        position:relative;
+        height: auto;
+    }  
+    .campaignImg {
+        width: 40%;
+    }
+    .read {
+        font-size: 20px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width:480px){
+    header {
+        width: 500px;
+    }
+    section {
+        width: 460px;
+        
+}
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin-left: 10px; 
+}
+    .mySlides {
+        display: none;
+        margin: 100px 0px 0px 0px;
+}
+
+    .headImg {
+        width: 70%;
+        margin-left: 0px;
+    }
+
+/* Caption text */
+    .text {
+        position: relative;
+        margin-left: 0px;
+        padding: 0px;
+        text-align: left
+}
+    .button {
+        margin: 30px 0px 50px 170px;
+}
+    .buttonClass {
+        text-align: center;
+    }
+    .line {
+        margin: 0px;
+        width: 1500px;
+}
+    .smallButton {
+        margin: 30px 0px 00px 80px;
+} 
+    .other {
+        float: none;
+        width:470px;
+        margin: 0px 0px 20px 30px;
+    }
+    .campaign {
+        width: 900px;
+        height:auto;
+        margin-bottom: 50px;
+    }  
+    .campaignImg {
+        width: 20%;
+    }   
+}

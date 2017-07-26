@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="main.css" type="text/css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Skånska Dagbladet</title>
+</head>
+<body>
+	<div id="wrapper">
+	
+     <header>	
+     </header>
+     <section>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 2</div>
+                    <img class="headImg" src="digital.jpg" alt="Skånska Dagbladet Digitalt">
+                <div class="text">
+                    <h1 class="textstyle"> Skånska Dagbladet Digitalt</h1>
+                    <h3>Vad ingår:</h3>
+                    <p>E-tidningen på dator, läsplatta och mobil</p>
+                    <p>Mån-lör</p>
+                    <p>Skånskan+ förmåner och erbjudande</p>
+                    <div class="button">
+                        <p class="buttonClass">Beställ</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                 <img class="headImg" src="total.jpg" alt="Skånska Dagbladet Prenumerationskampanj">
+                <div class="text">
+                    <h1 class="textstyle"> Prenumerationskampanj </h1>
+                    <h3>Vad ingår:</h3>
+                    <p>E-tidningen på dator, läsplatta och mobil</p>
+                    <p>Mån-lör</p>
+                    <p>skånskan+ förmåner och erbjudande</p>
+                    <div class="button">
+                        <p class="buttonClass">Beställ</p>
+                    </div>
+                </div>
+            </div>
+
+         </div>  
+         
+         <div class="line">
+         </div>
+         <h1 class="headTitle">Vårt utbud</h1>
+         <div class="other">
+            <div class="campaign">
+                <img class="campaignImg" src="total.jpg" alt="Skånska Dagbladet Total">
+                <h3 class="title">Total</h3>
+                <div class="smallLine">
+                </div>
+                <p class="read" onclick="showParagraph()">Läs mer...</p>
+                <div class="boxStyle" id="readMore"> 
+                    <h4 class="green">Papperstidningen</h4>
+                    <p class="grey">mån-lör</p>
+                    <h4 class="green">E-tidningen</h4>
+                    <p class="grey">mån-lör</p>
+                    <h4 class="green">Skånskan+</h4>
+                    <p class="grey">Förmåner och erbjudande</p>
+                    <h4 class="green">Priser</h4>
+                    <p class="grey">Helår 3099 kr</p>
+                    <p class="grey">Halvår 1599 kr</p>
+                    <p class="grey">Budget 259 kr/mån (bundet 12 mån)</p>
+                    <p class="grey">Företag 3595 kr</p>
+                    <div class="smallButton">
+                        <p class="buttonText">Beställ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="campaign">
+                <img class="campaignImg"  src="kombo.jpg" alt="Skånska Dagbladet Kombo">
+                <h3 class="title">Kombo</h3>
+                <div class="smallLine">
+                </div>
+                <p class="read" onclick="showParagraph2()">Läs mer...</p>
+                <div class="boxStyle" id="readMore2"> 
+                    <h4 class="red">Papperstidningen</h4>
+                    <p class="grey">mån-lör</p>
+                    <h4 class="red">E-tidningen</h4>
+                    <p class="grey">mån-lör</p>
+                    <h4 class="red">Skånskan+</h4>
+                    <p class="grey">Förmåner och erbjudande</p>
+                    <h4 class="red">Priser</h4>
+                    <p class="grey">Helår 2149 kr</p>
+                    <p class="grey">Halvår 1124 kr</p>
+                    <p class="grey">Budget 187 kr/mån (bundet 12 mån)</p>
+                    <div class="smallButton">
+                        <p class="buttonText">Beställ</p>
+                    </div>
+                </div>
+             </div>
+             
+            <div class="campaign">
+                <img class="campaignImg" src="digital.jpg" alt="Skånska Dagbladet Digital">
+                <h3 class="title">Digital</h3>     
+                <div class="smallLine">
+                </div>
+                <p class="read" onclick="showParagraph3()">Läs mer...</p>
+                <div class="boxStyle" id="readMore3"> 
+                    <h4 class="blue">E-tidningen</h4>
+                    <p class="grey">mån-lör</p>
+                    <h4 class="blue">Skånskan+</h4>
+                    <p class="grey">Förmåner och erbjudande</p>
+                    <h4 class="blue">Priser</h4>
+                    <p class="grey">Helår 1440 kr</p>
+                    <p class="grey">Halvår 720 kr</p>
+                    <p class="grey">Företag 2400 kr </p>
+                    <p class="grey">Månad 200 kr </p>
+                    <div class="smallButton">
+                        <p class="buttonText">Beställ</p>
+                    </div>
+                </div>
+             </div>
+             <div class="campaign">
+                <img class="campaignImg"  src="taltidning.jpg" alt="Skånska Dagbladet Taltidning">
+                <h3 class="title">Taltidning</h3>
+                <div class="smallLine">
+                </div>
+                <p class="read" onclick="showParagraph4()">Läs mer...</p>
+                <div class="boxStyle" id="readMore4"> 
+                    <h4 class="purple">Talad version av tidningen</h4>
+                    <p class="grey">till din DAISY-spelare</p>
+                    <p class="grey">mån-lör</p>
+                    <h4 class="purple">Skånskan+</h4>
+                    <p class="grey">Förmåner och erbjudande</p>
+                    <h4 class="purple">Priser</h4>
+                    <p class="grey">Helår 3099 kr</p>
+                    <p class="grey">Halvår 1599 kr</p>
+                    <p class="grey">Budget 259 kr/mån (bundet 12 mån)</p>
+                     <div class="smallButton">
+                        <p class="buttonText">Beställ</p>
+                    </div>
+                </div>    
+             </div>
+             
+         </div>
+     </section> 	
+    </div>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
